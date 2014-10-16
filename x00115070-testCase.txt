@@ -1,0 +1,39 @@
+#Test Case 1
+#Inputs: 20 80
+jExpected Output: Fail
+Actual Output: Fail
+
+#Test Case 2
+#Inputs: 50 50
+#Expected Output: Pass
+#Actual Output: Pass
+
+#Test Case 3
+#Inputs: 63 47
+#Expected Output: Pass
+#Actual Output: Pass
+
+#Test Case 4
+#Inputs: 99 40
+#Expected Output: Pass
+#Actual Output: Pass
+
+#Test Case 5
+#Inputs: 80 80
+#Expected Output: Pass
+#Actual Output: Pass
+
+#Test Case 6
+#Inputs: 60 90
+#Expected Output: Pass
+#Actual Output: Pass
+
+#Test Case 7
+#Inputs: 50 q
+#Expected Output: Invalid Input
+#Actual Output: Invalid Input
+
+#Test Case 8
+#Inputs: 101 56
+#Expected Output: Invalid Input
+#Actual Output: Pass with distinction
