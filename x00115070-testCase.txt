@@ -20,8 +20,8 @@ Actual Output: Fail
 
 #Test Case 5
 #Inputs: 80 80
-#Expected Output: Pass
-#Actual Output: Pass
+#Expected Output: Pass with distinction
+#Actual Output: Pass with distinction
 
 #Test Case 6
 #Inputs: 60 90
@@ -31,7 +31,7 @@ Actual Output: Fail
 #Test Case 7
 #Inputs: 50 q
 #Expected Output: Invalid Input
-#Actual Output: Invalid Input
+#Actual Output: Throws exception error
 
 #Test Case 8
 #Inputs: 101 56
