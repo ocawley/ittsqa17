@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://www.anpost.ie/" />
+<title>x00112018testcase2</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">x00112018testcase2</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/AnPost/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=An Post</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>An Post Home. In Ireland, no one delivers more</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=header</td>
+	<td>An Post skip to content Gaeilge English <br /> iPhone App Customer Service <br /> Search Site</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Business Customers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Business mail services | An Post</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=header</td>
+	<td>An Post skip to content Gaeilge English <br /> iPhone App Customer Service <br /> Search Site</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sending Parcels in Ireland</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Sending Parcels in Ireland</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#RadEditorPlaceHolderControl2 &gt; p</td>
+	<td>Regardless of where you're sending your parcels in Ireland, whether you're just starting off or already established, with An Post you know your deliveries are safe in the hands of Ireland's largest postal network. We offer a range of delivery options from low cost to urgent deliveries. No matter what your budget or your requirements we have a parcel solution for you.<br /><br />To help us to cater for your parcel requirements please select one of the options outlined below:</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sending less than 30 parcels per week - based in Dublin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>exact:Based in Dublin? Sending less than 30 Parcels a week?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//span[@id='RadEditorPlaceHolderControl2']/ul/li[7]</td>
+	<td>exact:Why choose An Post as your parcel partner?</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
